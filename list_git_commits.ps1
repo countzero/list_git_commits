@@ -2,10 +2,10 @@
 
 <#
 .SYNOPSIS
-List commits across multiple Git repositories.
+List commits across multiple local Git repositories.
 
 .DESCRIPTION
-This script aggregates a filtered list of commits across multiple Git repositories.
+This script aggregates a filtered list of commits across multiple local Git repositories.
 
 .PARAMETER author
 Filters the commits to ones with author header lines that match the specified pattern.
@@ -20,7 +20,7 @@ Specifies the directory that holds Git repositories.
 .\list_git_commits.ps1
 
 .EXAMPLE
-.\list_git_commits.ps1 -author "Finn Kumkar" -since "1 week ago"
+.\list_git_commits.ps1 -author "John Doe" -since "1 week ago"
 
 .EXAMPLE
 .\list_git_commits.ps1 -directory "./workspace"
