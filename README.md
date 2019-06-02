@@ -10,7 +10,7 @@ This script enables you to quickly check on what projects you worked on at what 
 
 The script will recusively find all Git repositories within a given `-directory`. If the optional `-directory` param is omitted it will fallback to the current directory `"."`.
 
-### Handles bare and regular repositories
+### Handles bare and non-bare Git repositories
 
 The script will find both bare and non-bare Git repositories. It follows the convention, that bare repository directories are suffixed with a `.git`.
 
